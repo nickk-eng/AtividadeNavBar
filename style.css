@@ -1,0 +1,71 @@
+:root {
+    --cor-fundo: #2b2b2b;
+    --cor-destaque: #5cb85c;
+    --cor-texto: #f8f9fa;
+}
+
+body {
+    background-color: var(--cor-fundo);
+    color: var(--cor-texto);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Navbar */
+.navbar {
+    background-color: #1a1a1a !important;
+    border-bottom: 3px solid var(--cor-destaque);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+}
+
+.navbar-brand {
+    color: var(--cor-destaque) !important;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+.nav-link {
+    color: #b3b3b3 !important;
+    font-weight: 500;
+    transition: color 0.3s ease;
+}
+
+.nav-link:hover,
+.nav-link.active {
+    color: var(--cor-destaque) !important;
+}
+
+.carousel {
+    margin-top: 20px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.carousel-item img {
+    height: 600px;
+    object-fit: cover;
+    opacity: 0.65;
+    background-color: #000;
+}
+
+.carousel-caption {
+    background: rgba(26, 26, 26, 0.85);
+    border-left: 5px solid var(--cor-destaque);
+    border-radius: 6px;
+    padding: 20px;
+    bottom: 50px;
+    text-align: left;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.carousel-caption h5 {
+    color: var(--cor-destaque);
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+.carousel-caption p {
+    margin-bottom: 0;
+    font-size: 1.1rem;
+}
